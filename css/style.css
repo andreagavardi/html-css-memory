@@ -2,8 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Nerko One", cursive;
 }
-.claerfix::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -16,12 +17,13 @@ header {
   margin-top: 20px;
 }
 header > h1 {
+  font-size: 6rem;
   color: white;
   text-transform: uppercase;
   text-align: center;
 }
 main {
-  width: 90%;
+  width: 70%;
   margin: auto;
   margin-top: 40px;
 }
@@ -30,13 +32,13 @@ main {
   margin: 20px;
   float: left;
   width: calc(100% / 4 - 40px);
-  height: 300px;
+  height: 250px;
 }
 .cards span {
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   width: 100%;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 .card_top,
@@ -61,4 +63,31 @@ main {
 
 .cards:hover .card_top {
   z-index: -1;
+}
+
+.Tram {
+  color: red;
+}
+.Bicycle {
+  color: yellow;
+}
+.Submarine {
+  color: steelblue;
+}
+.Tractor {
+  color: orange;
+}
+.Air-Baloon {
+  color: purple;
+}
+.Cruise {
+  color: olive;
+}
+
+footer > span {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
 }
