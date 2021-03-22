@@ -12,6 +12,7 @@
 body {
   background-color: cadetblue;
 }
+/* header-css */
 
 header {
   margin-top: 20px;
@@ -22,6 +23,8 @@ header > h1 {
   text-transform: uppercase;
   text-align: center;
 }
+/* main-css */
+
 main {
   width: 70%;
   margin: auto;
@@ -50,15 +53,14 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: white;
 }
 .card_top {
   z-index: 1;
 }
 
 .card_back {
+  background-color: white;
   object-fit: contain;
-  z-index: 0;
 }
 
 .cards:hover .card_top {
@@ -83,6 +85,8 @@ main {
 .Cruise {
   color: olive;
 }
+
+/* footer-css */
 
 footer > span {
   margin-top: 20px;
